@@ -62,16 +62,9 @@ START_COMMAND = get_config("START_COMMAND", "start")
 START_OTHER_USERS_TEXT = get_config(
     "START_OTHER_USERS_TEXT",
     (
-        "Hi.{message.from_user.first_name}"fervor"☺️\n"
+        "Hi.{message.from_user.first_name}f"stop ☺️\n"
         "Thank you for using me 😬\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHIDe/NoPMsBot\n\n\n"
-        "If you are the owner of this bot, "
-        "and are seeing this message 🤦‍♂️, "
-        "means that you have not set up "
-        "the ENVironment variables properly "
-        "for the bot to function.\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "
     )
 )
 # check online status of your bot
