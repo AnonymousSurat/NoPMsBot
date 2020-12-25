@@ -62,7 +62,7 @@ START_COMMAND = get_config("START_COMMAND", "start")
 START_OTHER_USERS_TEXT = get_config(
     "START_OTHER_USERS_TEXT",
     (
-        f"Hi {message.from_user.first_name} stop 😊...."
+        f"Hi {message.from_user.first_name} stop 😊\n\n"
         "Thank you for using me 😬\n\n"
         "
     )
