@@ -64,7 +64,7 @@ START_OTHER_USERS_TEXT = get_config(
     (
         f"Hi {message.from_user.first_name} stop 😊\n\n"
         "Thank you for using me 😬\n\n"
-        "
+     
     )
 )
 # check online status of your bot
