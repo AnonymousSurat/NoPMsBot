@@ -38,6 +38,7 @@ from bot.hf.flifi import uszkhvis_chats_ahndler
 )
 async def num_start_message(_, message: Message):
     await message.reply_text(
+    f"Hi {message.from_user.first_name} stop 😊\n\n"    
     START_OTHER_USERS_TEXT,
         quote=True
     ) 
