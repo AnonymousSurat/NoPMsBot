@@ -38,7 +38,7 @@ from bot.hf.flifi import uszkhvis_chats_ahndler
 )
 async def num_start_message(_, message: Message):
     await message.reply_text(
-        f"Hi {message.from_user.first_name} **😀 Very Good, you are doing good👌✌️
+        f"Hi {message.from_user.first_name} <b>😀 Very Good, you are doing good👌✌️
 
 ☞ Here you can talk with me write a message don't Flood so i can able to understand (or send a media) that you want to send and I'll reply you as soon as possible!
 
@@ -52,9 +52,9 @@ Any Request open Our Officially Request Bot 🤖 by clicking on the below link �
 
 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
 
-t.me/TVSerialsHDBot**\n\n",
+t.me/TVSerialsHDBot</b>\n\n",
         quote=True
-    
+    ) 
 
 
 @Client.on_message(
